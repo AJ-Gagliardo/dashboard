@@ -21,7 +21,7 @@ body{
 
 }
 .header{
-background-color: black;
+background-color: rgb(158, 112, 112);
 }
 
 .content{
@@ -35,4 +35,49 @@ li{
 a{
     color:white;
     text-decoration: none;
+}
+
+
+.header{
+    display:flex;
+    flex-direction: column;
+}
+.header-top{
+display:flex;
+padding:1rem;
+align-items: center;
+/* justify-content: space-between; */
+}
+
+.header-top-left{
+    display:flex;
+    flex:3;
+}
+
+.header-top-right{
+    flex:1;
+}
+.search-icon{
+height:1rem;
+width:1rem;
+margin-right:1vw;
+
+}
+
+#search-box{
+    width:90%;
+
+
+}
+
+#bell-icon{
+    height:1.5rem;
+    width:1.5rem;
+    /* margin-right:5%; */
+}
+
+.cat-display-pic{
+    height:2rem;
+    width:2rem;
+    border-radius:50%;
 }
